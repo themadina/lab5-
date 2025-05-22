@@ -1,0 +1,17 @@
+{
+  "contact": {
+    "phone": "+994 50 000 00 00",
+    "email": "richard@example.com",
+    "address": "Baku, Azerbaijan",
+    "website": "www.richardsanchez.az"
+  },
+  "education": ["Bakı Dövlət Universiteti, İnformasiya Təhlükəsizliyi"],
+  "skills": ["HTML", "CSS", "JavaScript"],
+  "languages": ["English", "Azerbaijani", "Russian"],
+  "profile": "Mən ambisiyalı və çalışqan marketinq meneceriyəm.",
+  "workExperience": ["ABC MMC - Marketinq Təcrübəsi (3 ay)"],
+  "references": [
+    "John Doe - CEO at Example Inc.",
+    "Jane Smith - Manager at Sample LLC"
+  ]
+}

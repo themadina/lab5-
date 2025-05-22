@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Richard Sanchez - CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="umumi">
+    <div class="left-side">
+      <img src="profil.png" alt="Profil şəkli" class="profil-img">
+      <h3>CONTACT</h3>
+    <p id="contact-phone"></p>
+    <p id="contact-email"></p>
+    <p id="contact-address"></p>
+    <p id="contact-website"></p>
+      <h3 onclick="toggleSection('educationList')">EDUCATION</h3>
+      <div id="educationList"></div>
+      <input type="text" id="newEducation" placeholder="Yeni təhsil">
+      <div id="educationError" class="error"></div>
+      <button onclick="addEducation()">Əlavə et</button>
+
+      <h3 onclick="toggleSection('skillsList')">SKILLS</h3>
+      <ul id="skillsList"></ul>
+      <input type="text" id="newSkill" placeholder="Yeni bacarıq">
+      <div id="skillError" class="error"></div>
+      <button onclick="addSkill()">Əlavə et</button>
+      <h3>LANGUAGES</h3>
+      <ul id="languagesList"></ul>
+    </div>
+    <div class="right-side">
+    <h1>RICHARD SANCHEZ</h1>
+    <h4>MARKETING MANAGER</h4>
+
+      <h3>İSTİFADƏÇİ MƏLUMATLARI</h3>
+      <input type="text" id="name" placeholder="Ad Soyad" />
+      <div id="nameError" class="error"></div>
+
+      <input type="email" id="email" placeholder="E-poçt" />
+      <div id="emailError" class="error"></div>
+
+      <input type="date" id="date" />
+      <div id="dateError" class="error"></div>
+
+      <h3>PROFILE</h3>
+      <textarea id="profile-description" rows="4"></textarea>
+      <div id="profileError" class="error"></div>
+
+      <h3>WORK EXPERIENCE</h3>
+      <div id="workExperience"></div>
+      <input type="text" id="newWork" placeholder="Yeni iş təcrübəsi">
+      <div id="workError" class="error"></div>
+      <button onclick="addWork()">Əlavə et</button>
+
+      <h3>REFERENCE</h3>
+      <div class="reference-section">
+        <div class="ref-box" id="reference-1"></div>
+        <div class="ref-box" id="reference-2"></div>
+      </div>
+      <br />
+      <button onclick="saveToLocalStorage()">Yadda Saxla</button>
+      <button onclick="resetToOriginal()">Hamısını Sıfırla</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
